@@ -1,0 +1,229 @@
+
+
+
+
+.head{
+    position: fixed;
+    top: 20px;
+    width: 98%;
+    height: 100px;
+    left: 1%;
+    background: rgb(61, 52, 69);
+    
+}
+
+.fhaid{
+    height: 50px;
+    position: fixed;
+    width: 98%;
+    left: 1%;
+    background: white;
+top: 0px;
+}
+.fcon{
+    height: 120px;
+}
+
+.cont{
+    margin: auto;
+    width: 98%;
+ 
+
+}
+.content{
+    width: 100%;
+    
+    
+    margin-top: 10px;
+}
+.foto{
+    
+    width: 1600px;
+    float: left;
+
+    
+}
+.txt{
+    
+    width: 550px;
+    float: right;
+    
+    
+}
+/*Menu*/
+
+.menu{
+    margin: 10px;
+    
+}
+
+.dws-menu > ul, 
+.dws-menu > li {
+    list-style: none;
+}
+.dws-menu > ul  {
+    display: flex;
+    
+}
+.dws-menu > ul li a {
+    display: block;
+    padding: 15px;
+    font-size: 40px;
+    background: rgb(61, 52, 69);
+    color: darkgray;
+    text-decoration: none;
+    text-transform: uppercase; 
+    transition: all 0.5s ease;
+ 
+}
+
+.dws-menu > ul li :first-child{
+border-left: 1px solid;
+}
+.dws-menu > ul li :last-child {
+  border-right: 1px solid;  
+}
+.dws-menu  li a:hover {
+    background: darkgray;
+    color: rgb(61, 52, 69);
+    box-shadow: 1px 5px 10px -5px white;
+    transition: all 0.3s ease;
+}
+
+/*PodMenu*/
+
+.dws-menu  li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+    list-style: none;
+    left: 10px;
+
+}
+.dws-menu  li > ul li{
+    border: 1px solid darkgray;
+    
+}
+.dws-menu li:hover >ul{
+    display: block;
+}
+
+
+/*планшет*/
+
+@media only screen and (max-width: 990px) {
+    .head{
+        position: fixed;
+        top: 20px;
+        width: 98%;
+        height: 100px;
+        left: 1%;
+        background: rgb(61, 52, 69);
+        
+    }
+    
+    
+    /*Menu*/
+    
+    .menu{
+        margin: 10px;
+        
+    }
+    
+    .dws-menu > ul, 
+    .dws-menu > li {
+        list-style: none;
+    }
+    .dws-menu > ul  {
+        display: flex;
+        
+    }
+    .dws-menu > ul li a {
+        display: block;
+        padding: 15px;
+        font-size: 40px;
+        background: rgb(61, 52, 69);
+        color: darkgray;
+        text-decoration: none;
+        text-transform: uppercase; 
+        transition: all 0.5s ease;
+     
+    }
+    
+    .dws-menu > ul li :first-child{
+    border-left: 1px solid;
+    }
+    .dws-menu > ul li :last-child {
+      border-right: 1px solid;  
+    }
+    .dws-menu  li a:hover {
+        background: darkgray;
+        color: rgb(61, 52, 69);
+        box-shadow: 1px 5px 10px -5px white;
+        transition: all 0.3s ease;
+    }
+    
+    /*PodMenu*/
+    
+    .dws-menu  li ul{
+        position: absolute;
+        min-width: 150px;
+        display: none;
+        list-style: none;
+        left: 10px;
+    
+    }
+    .dws-menu  li > ul li{
+        border: 1px solid darkgray;
+        
+    }
+    .dws-menu li:hover >ul{
+        display: block;
+    }
+    
+    
+    .fhaid{
+        height: 50px;
+        position: fixed;
+        width: 98%;
+        left: 1%;
+        background: white;
+    top: 0px;
+    }
+
+
+/*контент*/
+    .fcon{
+        height: 120px;
+    }
+    
+    .cont{
+        margin: auto;
+        width: 98%;
+     
+    
+    }
+
+
+    .content{
+        width: 100%;
+        
+        
+        margin-top: 10px;
+    }
+    .foto{
+        
+        width: 990px;
+        
+    
+        
+    }
+    .txt{
+        
+        width: 990px;
+        
+        
+        
+    }
+    
+}
